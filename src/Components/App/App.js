@@ -1,9 +1,15 @@
 import React from 'react';
 import logo from '../../logo.svg';
 import './App.css';
+
+import FlashCard from '../FlashCard/FlashCard'
+
+import '../FlashCard/FlashCard.css'
+
 import seg from '../../Data/Hl7SegList'
+
+
 function App() {
-  console.log(seg[0].code)
   return (
     <div className="App">
       <header className="App-header">
@@ -22,8 +28,7 @@ function App() {
       </header>
 
       <div>
-        <h1>{seg[0].code}</h1>
-        <h1>{seg[0].name}</h1>
+        <FlashCard />
       </div>
     </div>
   );
