@@ -5,8 +5,8 @@ import './App.css';
 import FlashCard from '../FlashCard/FlashCard'
 import CardTurners from '../CardTurners/CardTurners'
 import BackNextBtn from '../BackNextBtn/BackNextBtn'
-
-import Seg from '../../Data/Hl7SegList'
+import FlashcardContainer from '../Imports/FlashcardContainer'
+// import Seg from '../../Data/Hl7SegList'
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <FlashCard />
         {/* <CardTurners /> */}
         <BackNextBtn />
+        <FlashcardContainer />
 
       </div>
     </div>
