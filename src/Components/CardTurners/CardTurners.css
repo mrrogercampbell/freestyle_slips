@@ -1,0 +1,6 @@
+/* Code found here: https://stackoverflow.com/questions/6936972/draw-circle-using-css-alone */
+
+.circle:before {
+  content: ' \25CF';
+  font-size: 200px;
+}

@@ -3,10 +3,10 @@ import logo from '../../logo.svg';
 import './App.css';
 
 import FlashCard from '../FlashCard/FlashCard'
+import CardTurners from '../CardTurners/CardTurners'
+import BackNextBtn from '../BackNextBtn/BackNextBtn'
 
-import '../FlashCard/FlashCard.css'
-
-import seg from '../../Data/Hl7SegList'
+import Seg from '../../Data/Hl7SegList'
 
 
 function App() {
@@ -17,6 +17,9 @@ function App() {
 
       <div>
         <FlashCard />
+        {/* <CardTurners /> */}
+        <BackNextBtn />
+
       </div>
     </div>
   );

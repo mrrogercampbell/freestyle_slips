@@ -4,9 +4,9 @@ import seg from '../../Data/Hl7SegList'
 import "./FlashCard.css"
 class FlashCard extends Component {
     render() {
-        if (seg) {
-            let list = seg
-        }
+        // if (seg) {
+        //     let list = seg.ma
+        // }
         return (
             <div className='card1'>
                 <h1>{seg[0].code}</h1>
