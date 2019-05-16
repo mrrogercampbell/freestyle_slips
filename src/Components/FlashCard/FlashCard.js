@@ -8,9 +8,16 @@ class FlashCard extends Component {
         //     let list = seg.ma
         // }
         return (
-            <div className='card1'>
-                <h1 className='seg-code'>{seg[0].code}</h1>
-                <h1 className='seg-name'>{seg[0].name}</h1>
+            <div>
+                <div className='card1'>
+                    <h1 className='seg-code'>{seg[0].code}</h1>
+                    <h1 className='seg-name'>{seg[0].name}</h1>
+                </div>
+
+                <div className='buttons'>
+                    <button>Back</button>
+                    <button>Next</button>
+                </div>
             </div>
         );
     }

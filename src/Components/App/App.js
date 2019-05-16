@@ -18,8 +18,8 @@ function App() {
       <div>
         <FlashCard />
         {/* <CardTurners /> */}
-        <BackNextBtn />
-        <FlashcardContainer />
+        {/* <BackNextBtn /> */}
+        {/* <FlashcardContainer /> */}
 
       </div>
     </div>
